@@ -88,8 +88,8 @@ function result() {
         document.querySelector('.btn5').style.backgroundColor == "yellow" &&
         document.querySelector('.btn6').style.backgroundColor == "yellow" &&
         document.querySelector('.btn7').style.backgroundColor == "yellow" &&
-        document.querySelector('.btn8').style.backgroundColor == "yellow" &&
-        document.querySelector('.btn9').style.backgroundColor == "rgb(207, 128, 31)") {
+        document.querySelector('.btn8').style.backgroundColor == "rgb(207, 128, 31)" &&
+        document.querySelector('.btn9').style.backgroundColor == "yellow") {
         document.querySelector('.yes').style.display = "block";
         document.querySelector('.all').style.display = "none";
     } else {
