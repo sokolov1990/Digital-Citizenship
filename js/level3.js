@@ -81,10 +81,15 @@ function change9() {
 
 function result() {
 
-    if (document.querySelector('.btn3').style.backgroundColor == "yellow" &&
+    if (document.querySelector('.btn1').style.backgroundColor == "rgb(207, 128, 31)" &&
+        document.querySelector('.btn2').style.backgroundColor == "rgb(207, 128, 31)" &&
+        document.querySelector('.btn3').style.backgroundColor == "yellow" &&
+        document.querySelector('.btn4').style.backgroundColor == "rgb(207, 128, 31)" &&
         document.querySelector('.btn5').style.backgroundColor == "yellow" &&
         document.querySelector('.btn6').style.backgroundColor == "yellow" &&
-        document.querySelector('.btn7').style.backgroundColor == "yellow") {
+        document.querySelector('.btn7').style.backgroundColor == "yellow" &&
+        document.querySelector('.btn8').style.backgroundColor == "yellow" &&
+        document.querySelector('.btn9').style.backgroundColor == "rgb(207, 128, 31)") {
         document.querySelector('.yes').style.display = "block";
         document.querySelector('.all').style.display = "none";
     } else {
