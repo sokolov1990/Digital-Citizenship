@@ -48,10 +48,10 @@ h1 {
 .btn {
     margin-top: 1%;
     width: 30%;
-    height: 20%;
+    height: 100px;
     border-radius: 50px;
     font-family: 'Kosko';
-    font-size: 20px;
+    font-size: 18px;
     background-color: rgb(207, 128, 31);
 }
 
