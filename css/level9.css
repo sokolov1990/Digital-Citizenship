@@ -1,5 +1,5 @@
 body {
-    background: url(../img/the_end.png) no-repeat center center fixed;
+    background: url(../img/bye.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,17 +13,22 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(207, 128, 31);
+    font-family: Kosko;
+    font-size: 35px;
+}
+
+button {
+    text-align: center;
+    margin: auto;
+    width: 190px;
+    height: 100%;
+    background-color: rgb(207, 128, 31);
     font-family: Kosko;
     font-size: 25px;
 }
 
-.end {
+.text {
     text-align: center;
-    width: 50%;
-    left: 25%;
-    position: absolute;
-    bottom: 0%;
-    background-color: rgb(16, 211, 75);
-    opacity: 0.6;
+    width: 100%;
 }
