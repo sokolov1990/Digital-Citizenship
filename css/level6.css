@@ -1,0 +1,106 @@
+body {
+    background: url(../img/bgn-01.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Kosko';
+    src: url(../fonts/KoskoRegular-Regular.woff);
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.giraf {
+    position: absolute;
+    width: 13%;
+    height: 40%;
+    bottom: 0%;
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(207, 128, 31);
+    font-family: Kosko;
+    font-size: 35px;
+}
+
+.container {
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+.rulet {
+    width: 24%;
+    float: left;
+    margin: 5% auto;
+    background-color: rgb(179, 231, 94);
+}
+
+button {
+    width: 100%;
+    background-color: rgb(207, 128, 31);
+    font-family: Kosko;
+    font-size: 35px;
+}
+
+.btn {
+    margin: auto;
+    width: 190px;
+    height: 100px;
+    background-color: rgb(207, 128, 31);
+    font-family: Kosko;
+    font-size: 25px;
+}
+
+.otvet1,
+.otvet2 {
+    width: 1000px;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 960px) {
+    .container,
+    .otvet1,
+    .otvet2 {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container,
+    .otvet1,
+    .otvet2 {
+        width: 700px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container,
+    .otvet1,
+    .otvet2 {
+        width: 450px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+}

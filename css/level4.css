@@ -1,0 +1,75 @@
+body {
+    background: url(../img/bgn-01.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Kosko';
+    src: url(../fonts/KoskoRegular-Regular.woff);
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.giraf {
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    bottom: 0%;
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+h1 {
+    color: rgb(207, 128, 31);
+    font-family: Kosko;
+    font-size: 30px;
+}
+
+.container,
+.otvet1,
+.otvet2 {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    width: 80%;
+    height: 40%;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.box {
+    margin: 1% 1% 0 2%;
+    float: left;
+    width: 21%;
+    height: 80px;
+    border: 3px solid #666;
+    background-color: white;
+    border-radius: .5em;
+    cursor: move;
+    font-family: Kosko;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.box.over {
+    border: 3px dotted #666;
+}
+
+button {
+    margin-top: 1%;
+    width: 300px;
+    height: 100px;
+    font-family: Kosko;
+    font-size: 25px;
+    background-color: rgb(207, 128, 31);
+}

@@ -1,0 +1,76 @@
+body {
+    background: url(../img/bgn-01.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    width: 80%;
+    margin: auto;
+    height: 220px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.giraf {
+    position: absolute;
+    width: 17%;
+    height: 50%;
+    bottom: 0%;
+    animation-name: move;
+    animation-duration: 2s;
+}
+
+button {
+    width: 20%;
+    height: 100px;
+    font-family: Kosko;
+    font-size: 25px;
+    background-color: rgb(207, 128, 31);
+}
+
+@font-face {
+    font-family: 'Kosko';
+    src: url(../fonts/KoskoRegular-Regular.woff);
+}
+
+h1 {
+    color: rgb(207, 128, 31);
+    font-family: Kosko;
+    font-size: 45px;
+}
+
+.password {
+    font-size: 25px;
+    width: 600px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 960px) {}
+
+@media screen and (max-width: 720px) {}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    button {
+        font-size: 15px;
+    }
+    .giraf {
+        width: 50%;
+    }
+}
