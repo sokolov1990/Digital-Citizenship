@@ -39,7 +39,7 @@
      text-align: center;
      margin: auto;
      width: 50%;
-     height: 191px;
+     height: 111px;
  }
  
  .container1 {
@@ -52,8 +52,8 @@
  }
  
  button {
-     width: 130px;
-     height: 130px;
+     width: 8px;
+     height: 100%;
      background-color: rgb(207, 128, 31);
      font-family: Kosko;
      font-size: 25px;
